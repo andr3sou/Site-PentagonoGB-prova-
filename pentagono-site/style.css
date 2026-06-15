@@ -219,3 +219,123 @@ section{
     padding:10px 20px;
     border-radius:50px;
 }
+
+
+
+
+
+
+/* CARRINHO */
+
+
+.Carrinho{
+    width:95%;
+    margin:40px auto;
+    background:url("../img/fundo-roxo.jpg");
+    background-size:cover;
+    background-position:center;
+    border-radius:30px;
+    padding:40px;
+    color:white;
+}
+
+.Carrinho h1{
+    text-align:center;
+    color:#ff7f2a;
+    font-size:60px;
+    margin-bottom:20px;
+}
+
+.Carrinho h2{
+    color:#ff7f2a;
+    margin-bottom:20px;
+}
+
+#lista-carrinho{
+    background:#efefef;
+    border-radius:25px;
+    padding:20px;
+    min-height:100px;
+}
+
+.item-carrinho{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background:#d6d6d6;
+    padding:15px 20px;
+    margin-bottom:15px;
+    border-radius:15px;
+    color:black;
+    font-size:18px;
+    font-weight:bold;
+}
+
+.item-carrinho div{
+    display:flex;
+    align-items:center;
+    gap:10px;
+}
+
+.item-carrinho button{
+    border:none;
+    cursor:pointer;
+    padding:8px 12px;
+    border-radius:8px;
+    font-weight:bold;
+}
+
+.item-carrinho button:hover{
+    opacity:0.9;
+}
+
+#total{
+    margin-top:20px;
+    font-size:30px;
+    color:#ff7f2a;
+}
+
+#limpar,
+#comprar{
+    margin-top:20px;
+    padding:12px 25px;
+    border:none;
+    border-radius:20px;
+    cursor:pointer;
+    font-weight:bold;
+    font-size:16px;
+}
+
+#limpar{
+    background:#ff4d4d;
+    color:white;
+    margin-right:10px;
+}
+
+#comprar{
+    background:#2ecc71;
+    color:white;
+}
+
+#texto-comprar{
+    margin-top:15px;
+    font-size:20px;
+    font-weight:bold;
+}
+
+/* MELHORIA NOS BOTÕES DOS PRODUTOS */
+
+.produto button{
+    width:100%;
+    padding:15px;
+    border:none;
+    cursor:pointer;
+    background:#6f00ff;
+    color:white;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+.produto button:hover{
+    background:#5a00d1;
+}
