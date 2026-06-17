@@ -179,3 +179,4 @@ btnComprar.addEventListener("click", function() {
 
 // Executa uma vez ao carregar a página para mostrar o estado inicial vazio
 renderizarCarrinho();
+
